@@ -1,0 +1,130 @@
+
+<div class="container-fluid" ng-init="init()">
+   <div class="page-header">
+      <h3 data-i18n="_CarCustM_"></h3>
+    </div>
+	<div class="row inner_row container-fluid">
+		<form name="CarCustMForm" novalidate>
+		<div class="row">
+
+			<div class="form-group col-md-6">
+				<label for="carCustM_mntmap2" data-i18n="_carCustM_mntmap2_"></label>
+			</div>				
+
+
+			<div class="form-group col-md-6">
+				<label for="carCustM_f150CustomerMaintenance" data-i18n="_carCustM_f150CustomerMaintenance_"></label>
+			</div>				
+		</div>
+
+		<div class="row">
+		
+
+
+			<div class="form-group col-md-6" >
+				<label for="carCustM_fordF150CustomerNumber" data-i18n="_carCustM_fordF150CustomerNumber_"></label>
+				<input type="text" class="form-control" id="carCustM_fordF150CustomerNumber" name="carCustM_fordF150CustomerNumber" ng-model="carCustM.customerNumber" placeholder="" />
+			</div>
+
+
+			<div class="form-group col-md-6" >
+				<button type="button" class="btn btn-primary" ng-disabled="CarCustMForm.$invalid" ng-click="doSearch()">{{ '_Search_' | i18n }}</button>
+			</div>
+		</div>
+
+		<div class="row">
+		
+
+
+			<div class="form-group col-md-6" >
+				<label for="carCustM_lastName" data-i18n="_carCustM_lastName_"></label>
+				<input type="text" class="form-control" id="carCustM_lastName" name="carCustM_lastName" ng-model="carCustM.lastName" placeholder="" />
+			</div>
+		</div>
+
+		<div class="row">
+		
+
+
+			<div class="form-group col-md-6" >
+				<label for="carCustM_firstName" data-i18n="_carCustM_firstName_"></label>
+				<input type="text" class="form-control" id="carCustM_firstName" name="carCustM_firstName" ng-model="carCustM.firstName" placeholder="" />
+			</div>
+		</div>
+
+		<div class="row">
+		
+
+
+			<div class="form-group col-md-6" >
+				<label for="carCustM_address" data-i18n="_carCustM_address_"></label>
+				<input type="text" class="form-control" id="carCustM_address" name="carCustM_address" ng-model="carCustM.address" placeholder="" />
+			</div>
+		</div>
+
+		<div class="row">
+		
+
+
+			<div class="form-group col-md-6" >
+				<label for="carCustM_city" data-i18n="_carCustM_city_"></label>
+				<input type="text" class="form-control" id="carCustM_city" name="carCustM_city" ng-model="carCustM.city" placeholder="" />
+			</div>
+		</div>
+
+		<div class="row">
+		
+
+
+			<div class="form-group col-md-6" >
+				<label for="carCustM_state" data-i18n="_carCustM_state_"></label>
+				<input type="text" class="form-control" id="carCustM_state" name="carCustM_state" ng-model="carCustM.state" placeholder="" />
+			</div>
+		</div>
+
+		<div class="row">
+		
+
+
+			<div class="form-group col-md-6" >
+				<label for="carCustM_zipCode" data-i18n="_carCustM_zipCode_"></label>
+				<input type="text" class="form-control" id="carCustM_zipCode" name="carCustM_zipCode" ng-model="carCustM.zip" placeholder="" />
+			</div>
+		</div>
+
+		<div class="row">
+		
+
+
+			<div class="form-group col-md-6" >
+				<label for="carCustM_model" data-i18n="_carCustM_model_"></label>
+				<input type="text" class="form-control" id="carCustM_model" name="carCustM_model" ng-model="carCustM.model" placeholder="" />
+			</div>
+		</div>
+
+		<div class="row">
+		
+
+
+			<div class="form-group col-md-6" >
+				<label for="carCustM_color" data-i18n="_carCustM_color_"></label>
+				<input type="text" class="form-control" id="carCustM_color" name="carCustM_color" ng-model="carCustM.color" placeholder="" />
+			</div>
+		</div>
+
+		<div class="row">
+		
+
+
+			<div class="form-group col-md-6" >
+				<label for="carCustM_vinNo" data-i18n="_carCustM_vinNo_"></label>
+				<input type="text" class="form-control" id="carCustM_vinNo" name="carCustM_vinNo" ng-model="carCustM.vin" placeholder="" />
+			</div>
+		</div>
+	
+		<div>
+			{{message}}
+		</div>
+		</form>
+	</div>
+</div>

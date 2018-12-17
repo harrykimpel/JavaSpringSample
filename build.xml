@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== -->
+<!-- Ant build file (http://ant.apache.org/) for Ant 1.6.2 or above.        -->
+<!-- ====================================================================== -->
+<project name="harryk" default="package" basedir=".">
+	<!-- ====================================================================== -->
+	<!-- Build environment properties                                           -->
+	<!-- ====================================================================== -->
+	<property file="build.properties" />
+	<property name="project.build.finalName" value="harryk" />
+	<property name="project.build.dir" value="target" />
+	<property name="project.build.outputDir" value="${project.build.dir}/classes" />
+	<property name="project.build.srcDir.0" value="src/main/java" />
+	<property name="project.build.resourceDir.0" value="src/main/resources" />
+	<property name="project.build.testOutputDir" value="${project.build.dir}/test-classes" />
+	<property name="project.build.testDir.0" value="src/test/java" />
+	<property name="project.build.testResourceDir.0" value="src/test/resources" />
+	<property name="project.test.reports" value="${project.build.dir}/test-reports" />
+	<property name="project.reporting.outputDirectory" value="${project.build.dir}/site" />
+	<property name="project.settings.offline" value="false" />
+	<property name="project.settings.interactiveMode" value="true" />
+	<!-- ====================================================================== -->
+	<!-- Defining classpaths                                                    -->
+	<!-- ====================================================================== -->
+	<path id="build.classpath">
+		<pathelement path="${classpath}" />
+		<fileset dir="${project.build.webDir.0}/WEB-INF/lib">
+			<include name="**/*.jar" />
+		</fileset>
+		<fileset dir="${tomcat.home.dir}/lib">
+			<include name="**/*.jar" />
+		</fileset>
+		<pathelement location="classes" />
+	</path>
+
+	<path id="build.test.classpath">
+		<pathelement path="${classpath}" />
+		<fileset dir="${project.build.webDir.0}/WEB-INF/lib">
+			<include name="**/*.jar" />
+		</fileset>
+		<pathelement location="classes" />
+	</path>
+
+	<!-- ====================================================================== -->
+	<!-- Cleaning up target                                                     -->
+	<!-- ====================================================================== -->
+
+	<target name="clean" description="Clean the output directory">
+		<delete dir="${project.build.dir}" />
+	</target>
+
+	<!-- ====================================================================== -->
+	<!-- Compilation target                                                     -->
+	<!-- ====================================================================== -->
+
+	<target name="compile" description="Compile the code">
+		<mkdir dir="${project.build.outputDir}" />
+		<javac destdir="${project.build.outputDir}" nowarn="false" debug="true" optimize="false" deprecation="true" target="1.5" verbose="false" fork="false" source="1.5">
+			<src>
+				<pathelement location="${project.build.srcDir.0}" />
+			</src>
+			<classpath refid="build.classpath" />
+		</javac>
+		<copy todir="${project.build.outputDir}">
+			<fileset dir="${project.build.resourceDir.0}" />
+		</copy>
+	</target>
+
+	<!-- ====================================================================== -->
+	<!-- Test-compilation target                                                -->
+	<!-- ====================================================================== -->
+
+	<target name="compile-tests" depends="compile" description="Compile the test code" unless="project.test.skip">
+		<mkdir dir="${project.build.testOutputDir}" />
+		<javac destdir="${project.build.testOutputDir}" nowarn="false" debug="true" optimize="false" deprecation="true" target="1.5" verbose="false" fork="false" source="1.5">
+			<src>
+				<pathelement location="${project.build.testDir.0}" />
+			</src>
+			<classpath>
+				<path refid="build.test.classpath" />
+				<pathelement location="${project.build.outputDir}" />
+			</classpath>
+		</javac>
+		<copy todir="${project.build.testOutputDir}">
+			<fileset dir="${project.build.testResourceDir.0}" />
+		</copy>
+	</target>
+
+	<!-- ====================================================================== -->
+	<!-- Run all tests                                                          -->
+	<!-- ====================================================================== -->
+
+	<target name="test" depends="compile-tests, junit-missing" unless="junit.skipped" description="Run the test cases">
+		<mkdir dir="${project.test.reports}" />
+		<junit printSummary="yes" haltonerror="true" haltonfailure="true" fork="true" dir=".">
+			<sysproperty key="basedir" value="." />
+			<formatter type="xml" />
+			<formatter type="plain" usefile="false" />
+			<classpath>
+				<path refid="build.test.classpath" />
+				<pathelement location="${project.build.outputDir}" />
+				<pathelement location="${project.build.testOutputDir}" />
+			</classpath>
+			<batchtest todir="${project.test.reports}" unless="test">
+				<fileset dir="${project.build.testDir.0}">
+					<include name="**/Test*.java" />
+					<include name="**/*Test.java" />
+					<include name="**/*TestCase.java" />
+					<exclude name="**/*Abstract*Test.java" />
+				</fileset>
+			</batchtest>
+			<batchtest todir="${project.test.reports}" if="test">
+				<fileset dir="${project.build.testDir.0}">
+					<include name="**/${test}.java" />
+					<exclude name="**/*Abstract*Test.java" />
+				</fileset>
+			</batchtest>
+		</junit>
+	</target>
+
+	<target name="test-junit-present">
+		<available classname="junit.framework.Test" property="junit.present" />
+	</target>
+
+	<target name="test-junit-status" depends="test-junit-present">
+		<condition property="junit.missing">
+			<and>
+				<isfalse value="${junit.present}" />
+				<isfalse value="${project.test.skip}" />
+			</and>
+		</condition>
+		<condition property="junit.skipped">
+			<or>
+				<isfalse value="${junit.present}" />
+				<istrue value="${project.test.skip}" />
+			</or>
+		</condition>
+	</target>
+
+	<target name="junit-missing" depends="test-junit-status" if="junit.missing">
+		<echo>=================================== WARNING ===================================</echo>
+		<echo> JUnit is not present in your $ANT_HOME/lib directory. Tests not executed.</echo>
+		<echo>===============================================================================</echo>
+	</target>
+
+	<!-- ====================================================================== -->
+	<!-- Javadoc target                                                         -->
+	<!-- ====================================================================== -->
+
+	<target name="javadoc" description="Generates the Javadoc of the application">
+		<javadoc sourcepath="${project.build.srcDir.0}" packagenames="*" destdir="${project.reporting.outputDirectory}/apidocs" access="protected" old="false" verbose="false" version="true" use="true" author="true" splitindex="false" nodeprecated="false" nodeprecatedlist="false" notree="false" noindex="false" nohelp="false" nonavbar="false" serialwarn="false" charset="ISO-8859-1" linksource="false" breakiterator="false" />
+	</target>
+
+	<!-- ====================================================================== -->
+	<!-- Package target                                                         -->
+	<!-- ====================================================================== -->
+
+	<target name="package" depends="compile,test" description="Package the application">
+		<war destfile="${project.build.dir}/${project.build.finalName}.war" compress="true" webxml="src/main/webapp/WEB-INF/web.xml">
+			<lib dir="${project.build.webDir.0}/WEB-INF/lib" />
+			<classes dir="${project.build.outputDir}" />
+			<fileset dir="src/main/webapp" excludes="WEB-INF/web.xml" />
+		</war>
+	</target>
+
+	<!-- ====================================================================== -->
+	<!-- A dummy target for the package named after the type it creates         -->
+	<!-- ====================================================================== -->
+
+	<target name="war" depends="package" description="Builds the war for the application" />
+
+	<!-- ====================================================================== -->
+	<!-- Help target                                                            -->
+	<!-- ====================================================================== -->
+
+	<target name="help">
+		<echo message="Please run: $ant -projecthelp" />
+	</target>
+</project>

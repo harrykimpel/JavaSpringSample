@@ -1,0 +1,753 @@
+/*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Servicedefinition Interface Template
+ * Name of Template File			 	: ServiceDefinition Interface Template.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/servicedefinition/IOrderEntryUtilitiesInterface.java
+ * Code Generation Date 				: May 11, 2016 06:02:31
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Servicedefinition Interface Template
+ * Name of Template File			 	: ServiceDefinition Interface Template.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/servicedefinition/IChkdgrtnInterface.java
+ * Code Generation Date 				: May 11, 2016 06:02:31
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Servicedefinition Interface Template
+ * Name of Template File			 	: ServiceDefinition Interface Template.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/servicedefinition/IAr7300TxtInterface.java
+ * Code Generation Date 				: May 11, 2016 06:02:31
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Servicedefinition Interface Template
+ * Name of Template File			 	: ServiceDefinition Interface Template.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/servicedefinition/ISmt0890iCblInterface.java
+ * Code Generation Date 				: May 11, 2016 06:02:31
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Controller Template
+ * Name of Template File			 	: ControllerTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/controller/CustomerController.java
+ * Code Generation Date 				: May 11, 2016 06:02:32
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Controller Template
+ * Name of Template File			 	: ControllerTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/controller/InvoiceController.java
+ * Code Generation Date 				: May 11, 2016 06:02:32
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Controller Template
+ * Name of Template File			 	: ControllerTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/controller/InvLineController.java
+ * Code Generation Date 				: May 11, 2016 06:02:32
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: AngularJS Index Service Template
+ * Name of Template File			 	: AngularJSIndexServiceTemplate.et.jsp
+ * Generated File Path				 	: /src/main/webapp/js/services/index.js
+ * Code Generation Date 				: May 11, 2016 06:02:32
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: EntityList Template
+ * Name of Template File			 	: EntityListTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/handler/CustomerList.java
+ * Code Generation Date 				: May 11, 2016 06:02:33
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: EntityList Template
+ * Name of Template File			 	: EntityListTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/handler/InvoiceList.java
+ * Code Generation Date 				: May 11, 2016 06:02:33
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: EntityList Template
+ * Name of Template File			 	: EntityListTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/handler/InvLineList.java
+ * Code Generation Date 				: May 11, 2016 06:02:33
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: AngularJS Services Impl Template
+ * Name of Template File			 	: AngularJSServicesImplTemplate.et.jsp
+ * Generated File Path				 	: /src/main/webapp/js/services/sdl_screens/carcustselImpl.service.js
+ * Code Generation Date 				: May 11, 2016 06:02:33
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: AngularJS Services Impl Template
+ * Name of Template File			 	: AngularJSServicesImplTemplate.et.jsp
+ * Generated File Path				 	: /src/main/webapp/js/services/sdl_screens/carcustmaintImpl.service.js
+ * Code Generation Date 				: May 11, 2016 06:02:33
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: AngularJS Services Impl Template
+ * Name of Template File			 	: AngularJSServicesImplTemplate.et.jsp
+ * Generated File Path				 	: /src/main/webapp/js/services/sdl_screens/CarCustMImpl.service.js
+ * Code Generation Date 				: May 11, 2016 06:02:33
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Application Resources Properties Template for English United States
+ * Name of Template File			 	: ApplicationResourcesTemplateForEnglish.et.jsp
+ * Generated File Path				 	: /src/main/webapp/i18n/resources-locale_en-US.js
+ * Code Generation Date 				: May 11, 2016 06:02:36
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: AngularJS Login Service Template
+ * Name of Template File			 	: AngularJSLoginServiceTemplate.et.jsp
+ * Generated File Path				 	: /src/main/webapp/js/services/login.service.js
+ * Code Generation Date 				: May 11, 2016 06:02:36
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Servicedefinition Controller Template
+ * Name of Template File			 	: ServiceDefinition Controller Template.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/servicedefinition/controller/OrderEntryUtilitiesController.java
+ * Code Generation Date 				: May 11, 2016 06:02:36
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Servicedefinition Controller Template
+ * Name of Template File			 	: ServiceDefinition Controller Template.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/servicedefinition/controller/ChkdgrtnController.java
+ * Code Generation Date 				: May 11, 2016 06:02:36
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Servicedefinition Controller Template
+ * Name of Template File			 	: ServiceDefinition Controller Template.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/servicedefinition/controller/Ar7300TxtController.java
+ * Code Generation Date 				: May 11, 2016 06:02:36
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Servicedefinition Controller Template
+ * Name of Template File			 	: ServiceDefinition Controller Template.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/servicedefinition/controller/Smt0890iCblController.java
+ * Code Generation Date 				: May 11, 2016 06:02:36
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Eclipse Project descriptor Template
+ * Name of Template File			 	: project.et.jsp
+ * Generated File Path				 	: /.project
+ * Code Generation Date 				: May 11, 2016 06:02:37
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Servicedefinition Abstact Class Template
+ * Name of Template File			 	: ServiceDefinition Abstact Class Template.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/servicedefinition/AbstactOrderEntryUtilities.java
+ * Code Generation Date 				: May 11, 2016 06:02:37
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Servicedefinition Abstact Class Template
+ * Name of Template File			 	: ServiceDefinition Abstact Class Template.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/servicedefinition/AbstactChkdgrtn.java
+ * Code Generation Date 				: May 11, 2016 06:02:37
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Servicedefinition Abstact Class Template
+ * Name of Template File			 	: ServiceDefinition Abstact Class Template.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/servicedefinition/AbstactAr7300Txt.java
+ * Code Generation Date 				: May 11, 2016 06:02:37
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Servicedefinition Abstact Class Template
+ * Name of Template File			 	: ServiceDefinition Abstact Class Template.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/servicedefinition/AbstactSmt0890iCbl.java
+ * Code Generation Date 				: May 11, 2016 06:02:37
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Logback Configuration
+ * Name of Template File			 	: LogbackConfiguration.et.jsp
+ * Generated File Path				 	: /src/main/resources/logback.xml
+ * Code Generation Date 				: May 11, 2016 06:02:38
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Response Template
+ * Name of Template File			 	: ResponseTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/response/Response.java
+ * Code Generation Date 				: May 11, 2016 06:02:38
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Service UnitTest Template
+ * Name of Template File			 	: ServiceLayerUnitTestCase.et.jsp
+ * Generated File Path				 	: /src/test/java/com/ciber/ford/service/CustomerServiceTest.java
+ * Code Generation Date 				: May 11, 2016 06:02:39
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Service UnitTest Template
+ * Name of Template File			 	: ServiceLayerUnitTestCase.et.jsp
+ * Generated File Path				 	: /src/test/java/com/ciber/ford/service/InvoiceServiceTest.java
+ * Code Generation Date 				: May 11, 2016 06:02:39
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Service UnitTest Template
+ * Name of Template File			 	: ServiceLayerUnitTestCase.et.jsp
+ * Generated File Path				 	: /src/test/java/com/ciber/ford/service/InvLineServiceTest.java
+ * Code Generation Date 				: May 11, 2016 06:02:39
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Service Impl Class Template
+ * Name of Template File			 	: ServiceImplTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/service/mom/extension/impl/CustomerServiceImpl.java
+ * Code Generation Date 				: May 11, 2016 06:02:39
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Service Impl Class Template
+ * Name of Template File			 	: ServiceImplTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/service/mom/extension/impl/InvoiceServiceImpl.java
+ * Code Generation Date 				: May 11, 2016 06:02:39
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Service Impl Class Template
+ * Name of Template File			 	: ServiceImplTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/service/mom/extension/impl/InvLineServiceImpl.java
+ * Code Generation Date 				: May 11, 2016 06:02:39
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Entity Template
+ * Name of Template File			 	: EntityTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/entity/Customer.java
+ * Code Generation Date 				: May 11, 2016 06:02:40
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Entity Template
+ * Name of Template File			 	: EntityTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/entity/Invoice.java
+ * Code Generation Date 				: May 11, 2016 06:02:40
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Entity Template
+ * Name of Template File			 	: EntityTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/entity/InvLine.java
+ * Code Generation Date 				: May 11, 2016 06:02:40
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: DAO Interface Template
+ * Name of Template File			 	: DAOInterfaceTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/dao/CustomerDAO.java
+ * Code Generation Date 				: May 11, 2016 06:02:40
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: DAO Interface Template
+ * Name of Template File			 	: DAOInterfaceTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/dao/InvoiceDAO.java
+ * Code Generation Date 				: May 11, 2016 06:02:40
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: DAO Interface Template
+ * Name of Template File			 	: DAOInterfaceTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/dao/InvLineDAO.java
+ * Code Generation Date 				: May 11, 2016 06:02:40
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: pom.xml Template
+ * Name of Template File			 	: pom.xml.et.jsp
+ * Generated File Path				 	: /pom.xml
+ * Code Generation Date 				: May 11, 2016 06:02:41
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Application Resources Properties Template
+ * Name of Template File			 	: ApplicationResourcesDefaultTemplate.et.jsp
+ * Generated File Path				 	: /src/main/webapp/i18n/resources-locale_default.js
+ * Code Generation Date 				: May 11, 2016 06:02:43
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Abstract DAO Impl Class Template
+ * Name of Template File			 	: AbstractDAOImplTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/dao/AbstractCustomerDAOImpl.java
+ * Code Generation Date 				: May 11, 2016 06:02:44
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Abstract DAO Impl Class Template
+ * Name of Template File			 	: AbstractDAOImplTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/dao/AbstractInvoiceDAOImpl.java
+ * Code Generation Date 				: May 11, 2016 06:02:44
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Abstract DAO Impl Class Template
+ * Name of Template File			 	: AbstractDAOImplTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/dao/AbstractInvLineDAOImpl.java
+ * Code Generation Date 				: May 11, 2016 06:02:44
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Abstract Service Impl Class Template
+ * Name of Template File			 	: AbstractServiceImplTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/service/AbstractCustomerServiceImpl.java
+ * Code Generation Date 				: May 11, 2016 06:02:44
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Abstract Service Impl Class Template
+ * Name of Template File			 	: AbstractServiceImplTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/service/AbstractInvoiceServiceImpl.java
+ * Code Generation Date 				: May 11, 2016 06:02:44
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Abstract Service Impl Class Template
+ * Name of Template File			 	: AbstractServiceImplTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/service/AbstractInvLineServiceImpl.java
+ * Code Generation Date 				: May 11, 2016 06:02:44
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: AngularJS SDL Screens Left Menu Template
+ * Name of Template File			 	: AngularJSSDLScreensLeftMenuTemplate.et.jsp
+ * Generated File Path				 	: /src/main/webapp/js/partials/sdl_screens.html
+ * Code Generation Date 				: May 11, 2016 06:02:45
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Application Configuration
+ * Name of Template File			 	: WebConfig.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/momentum/config/WebConfig.java
+ * Code Generation Date 				: May 11, 2016 06:02:45
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: AngularJS Home.html Template
+ * Name of Template File			 	: AngularJSHome.htmlTemplate.et.jsp
+ * Generated File Path				 	: /src/main/webapp/home.html
+ * Code Generation Date 				: May 11, 2016 06:02:45
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Servicedefinition Abstact Class Impl Template
+ * Name of Template File			 	: ServiceDefinition Abstact Class Impl Template.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/servicedefinition/mom/extension/impl/AbstactOrderEntryUtilitiesImpl.java
+ * Code Generation Date 				: May 11, 2016 06:02:46
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Servicedefinition Abstact Class Impl Template
+ * Name of Template File			 	: ServiceDefinition Abstact Class Impl Template.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/servicedefinition/mom/extension/impl/AbstactChkdgrtnImpl.java
+ * Code Generation Date 				: May 11, 2016 06:02:46
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Servicedefinition Abstact Class Impl Template
+ * Name of Template File			 	: ServiceDefinition Abstact Class Impl Template.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/servicedefinition/mom/extension/impl/AbstactAr7300TxtImpl.java
+ * Code Generation Date 				: May 11, 2016 06:02:46
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Servicedefinition Abstact Class Impl Template
+ * Name of Template File			 	: ServiceDefinition Abstact Class Impl Template.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/servicedefinition/mom/extension/impl/AbstactSmt0890iCblImpl.java
+ * Code Generation Date 				: May 11, 2016 06:02:46
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: AngularJS SDL Screen Routers Template
+ * Name of Template File			 	: AngularJSSDLScreenRouters.jsTemplate.et.jsp
+ * Generated File Path				 	: /src/main/webapp/js/routers/sdl_screens.router.js
+ * Code Generation Date 				: May 11, 2016 06:02:46
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: User Defined Exception Template
+ * Name of Template File			 	: UserDefinedException.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/exception/UnknownResourceException.java
+ * Code Generation Date 				: May 11, 2016 06:02:46
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: AngularJS Partials(SDL Form Replica) Template
+ * Name of Template File			 	: AngularJSSDLForms(Partials)Template.et.jsp
+ * Generated File Path				 	: /src/main/webapp/js/partials/sdl_screens/carcustsel.html
+ * Code Generation Date 				: May 11, 2016 06:02:49
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: AngularJS Partials(SDL Form Replica) Template
+ * Name of Template File			 	: AngularJSSDLForms(Partials)Template.et.jsp
+ * Generated File Path				 	: /src/main/webapp/js/partials/sdl_screens/carcustmaint.html
+ * Code Generation Date 				: May 11, 2016 06:02:49
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: AngularJS Partials(SDL Form Replica) Template
+ * Name of Template File			 	: AngularJSSDLForms(Partials)Template.et.jsp
+ * Generated File Path				 	: /src/main/webapp/js/partials/sdl_screens/CarCustM.html
+ * Code Generation Date 				: May 11, 2016 06:02:49
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: AngularJS Routes Template
+ * Name of Template File			 	: AngularJSRoutes.jsTemplate.et.jsp
+ * Generated File Path				 	: /src/main/webapp/js/routes.js
+ * Code Generation Date 				: May 11, 2016 06:02:49
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: DAOImpl Unit TestCase Template
+ * Name of Template File			 	: DAOImplUnitTestCaseTemplate.et.jsp
+ * Generated File Path				 	: /src/test/java/com/ciber/ford/dao/CustomerDAOTest.java
+ * Code Generation Date 				: May 11, 2016 06:02:49
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: DAOImpl Unit TestCase Template
+ * Name of Template File			 	: DAOImplUnitTestCaseTemplate.et.jsp
+ * Generated File Path				 	: /src/test/java/com/ciber/ford/dao/InvoiceDAOTest.java
+ * Code Generation Date 				: May 11, 2016 06:02:49
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: DAOImpl Unit TestCase Template
+ * Name of Template File			 	: DAOImplUnitTestCaseTemplate.et.jsp
+ * Generated File Path				 	: /src/test/java/com/ciber/ford/dao/InvLineDAOTest.java
+ * Code Generation Date 				: May 11, 2016 06:02:49
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Service Interface Template
+ * Name of Template File			 	: ServiceInterfaceTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/service/CustomerService.java
+ * Code Generation Date 				: May 11, 2016 06:02:50
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Service Interface Template
+ * Name of Template File			 	: ServiceInterfaceTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/service/InvoiceService.java
+ * Code Generation Date 				: May 11, 2016 06:02:50
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Service Interface Template
+ * Name of Template File			 	: ServiceInterfaceTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/service/InvLineService.java
+ * Code Generation Date 				: May 11, 2016 06:02:50
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: DAO Impl Class Template
+ * Name of Template File			 	: DAOImplTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/dao/mom/extension/impl/CustomerDAOImpl.java
+ * Code Generation Date 				: May 11, 2016 06:02:50
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: DAO Impl Class Template
+ * Name of Template File			 	: DAOImplTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/dao/mom/extension/impl/InvoiceDAOImpl.java
+ * Code Generation Date 				: May 11, 2016 06:02:50
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: DAO Impl Class Template
+ * Name of Template File			 	: DAOImplTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/dao/mom/extension/impl/InvLineDAOImpl.java
+ * Code Generation Date 				: May 11, 2016 06:02:50
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Application Properties
+ * Name of Template File			 	: ApplicationProperties.et.jsp
+ * Generated File Path				 	: /src/main/resources/application.properties
+ * Code Generation Date 				: May 11, 2016 06:02:50
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: AngularJS Index Controller Template
+ * Name of Template File			 	: AngularJSIndexControllerTemplate.et.jsp
+ * Generated File Path				 	: /src/main/webapp/js/controllers/index.js
+ * Code Generation Date 				: May 11, 2016 06:02:51
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: AngularJS Login Controller Template
+ * Name of Template File			 	: AngularJSLoginController.et.jsp
+ * Generated File Path				 	: /src/main/webapp/js/controllers/login.controller.js
+ * Code Generation Date 				: May 11, 2016 06:02:51
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Entity Response Template
+ * Name of Template File			 	: EntityResponseTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/response/CustomerResponse.java
+ * Code Generation Date 				: May 11, 2016 06:02:52
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Entity Response Template
+ * Name of Template File			 	: EntityResponseTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/response/InvoiceResponse.java
+ * Code Generation Date 				: May 11, 2016 06:02:52
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Entity Response Template
+ * Name of Template File			 	: EntityResponseTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/response/InvLineResponse.java
+ * Code Generation Date 				: May 11, 2016 06:02:52
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Audit After Aspect Template
+ * Name of Template File			 	: AuditAfterAspectTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/aspect/AuditAfterAspect.java
+ * Code Generation Date 				: May 11, 2016 06:02:52
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: AngularJS Services Template
+ * Name of Template File			 	: AngularJSServicesTemplate.et.jsp
+ * Generated File Path				 	: /src/main/webapp/js/services/sdl_screens/carcustsel.service.js
+ * Code Generation Date 				: May 11, 2016 06:02:53
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: AngularJS Services Template
+ * Name of Template File			 	: AngularJSServicesTemplate.et.jsp
+ * Generated File Path				 	: /src/main/webapp/js/services/sdl_screens/carcustmaint.service.js
+ * Code Generation Date 				: May 11, 2016 06:02:53
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: AngularJS Services Template
+ * Name of Template File			 	: AngularJSServicesTemplate.et.jsp
+ * Generated File Path				 	: /src/main/webapp/js/services/sdl_screens/CarCustM.service.js
+ * Code Generation Date 				: May 11, 2016 06:02:53
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Classpath descriptor Template
+ * Name of Template File			 	: classpath.et.jsp
+ * Generated File Path				 	: /.classpath
+ * Code Generation Date 				: May 11, 2016 06:02:53
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Constants Template
+ * Name of Template File			 	: ConstantsTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/constant/Constants.java
+ * Code Generation Date 				: May 11, 2016 06:02:54
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: AngularJS Controllers Template
+ * Name of Template File			 	: AngularJSControllersTemplate.et.jsp
+ * Generated File Path				 	: /src/main/webapp/js/controllers/sdl_screens/carcustsel.controller.js
+ * Code Generation Date 				: May 11, 2016 06:02:54
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: AngularJS Controllers Template
+ * Name of Template File			 	: AngularJSControllersTemplate.et.jsp
+ * Generated File Path				 	: /src/main/webapp/js/controllers/sdl_screens/carcustmaint.controller.js
+ * Code Generation Date 				: May 11, 2016 06:02:54
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: AngularJS Controllers Template
+ * Name of Template File			 	: AngularJSControllersTemplate.et.jsp
+ * Generated File Path				 	: /src/main/webapp/js/controllers/sdl_screens/CarCustM.controller.js
+ * Code Generation Date 				: May 11, 2016 06:02:54
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Service Definition Controller UnitTest Case Template
+ * Name of Template File			 	: ServiceDefinitionControllerUnitTestCaseTemplate.et.jsp
+ * Generated File Path				 	: /src/test/java/com/ciber/ford/servicedefinition/controller/OrderEntryUtilitiesControllerTest.java
+ * Code Generation Date 				: May 11, 2016 06:02:54
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Service Definition Controller UnitTest Case Template
+ * Name of Template File			 	: ServiceDefinitionControllerUnitTestCaseTemplate.et.jsp
+ * Generated File Path				 	: /src/test/java/com/ciber/ford/servicedefinition/controller/ChkdgrtnControllerTest.java
+ * Code Generation Date 				: May 11, 2016 06:02:54
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Service Definition Controller UnitTest Case Template
+ * Name of Template File			 	: ServiceDefinitionControllerUnitTestCaseTemplate.et.jsp
+ * Generated File Path				 	: /src/test/java/com/ciber/ford/servicedefinition/controller/Ar7300TxtControllerTest.java
+ * Code Generation Date 				: May 11, 2016 06:02:54
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Service Definition Controller UnitTest Case Template
+ * Name of Template File			 	: ServiceDefinitionControllerUnitTestCaseTemplate.et.jsp
+ * Generated File Path				 	: /src/test/java/com/ciber/ford/servicedefinition/controller/Smt0890iCblControllerTest.java
+ * Code Generation Date 				: May 11, 2016 06:02:54
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Logging Around Aspect Template
+ * Name of Template File			 	: LoggingAspectTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/aspect/LoggingAspect.java
+ * Code Generation Date 				: May 11, 2016 06:02:55
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: build.xml
+ * Name of Template File			 	: build.xml.et.jsp
+ * Generated File Path				 	: /build.xml
+ * Code Generation Date 				: May 11, 2016 06:02:55
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Controller UnitTest Case Template
+ * Name of Template File			 	: ControllerUnitTestCaseTemplate.et.jsp
+ * Generated File Path				 	: /src/test/java/com/ciber/ford/controller/CustomerControllerTest.java
+ * Code Generation Date 				: May 11, 2016 06:02:55
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Controller UnitTest Case Template
+ * Name of Template File			 	: ControllerUnitTestCaseTemplate.et.jsp
+ * Generated File Path				 	: /src/test/java/com/ciber/ford/controller/InvoiceControllerTest.java
+ * Code Generation Date 				: May 11, 2016 06:02:55
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Controller UnitTest Case Template
+ * Name of Template File			 	: ControllerUnitTestCaseTemplate.et.jsp
+ * Generated File Path				 	: /src/test/java/com/ciber/ford/controller/InvLineControllerTest.java
+ * Code Generation Date 				: May 11, 2016 06:02:55
+ */
+ 
+ /*
+ * Template Library Version 			: 1.0
+ * Name of Template					 	: Default Controller Template
+ * Name of Template File			 	: DefualtControllerTemplate.et.jsp
+ * Generated File Path				 	: /src/main/java/com/ciber/ford/controller/DefaultController.java
+ * Code Generation Date 				: May 11, 2016 06:02:56
+ */
+ 
+ 
