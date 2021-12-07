@@ -54,7 +54,7 @@
 	<properties>
 		<org.springframework.version>3.2.2.RELEASE</org.springframework.version>
 		<org.springframework.security.version>3.2.2.RELEASE</org.springframework.security.version>	
-		<org.hibernate.version>4.2.0.Final</org.hibernate.version>	
+		<org.hibernate.version>4.3.11.Final</org.hibernate.version>	
 		<mysql.connector.version>5.1.21</mysql.connector.version>		
 		<aspectj.version>1.7.4</aspectj.version>		
 		<logback.version>1.0.13</logback.version>
